@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply text-neutral-lightgrey text-2xl font-bold 
+}
+
+.btndet {
+  @apply bg-slate-600 w-12 h-12 rounded-full text-center flex justify-center items-center hover:bg-primary-orange active:bg-neutral-lightgrey
+}
+
+.btn:hover,
+.btn:active {
+  @apply text-neutral-white
+}
